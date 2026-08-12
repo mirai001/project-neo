@@ -44,7 +44,7 @@ sudo sshd -T | grep -E \
 '^(port|permitrootlogin|passwordauthentication|pubkeyauthentication|kbdinteractiveauthentication)'
 ---
 ## observed configuration:
----
+|---|---|
 - | port | 22 |
 - | permitrootlogin |  without-password |
 - | pubkeyauthentication | yes |

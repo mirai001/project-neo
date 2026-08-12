@@ -60,7 +60,3 @@ resources exposed to the guest OS should be distinguished.
 
 The instance was configured with 2 OCPUs in Oracle Cloud,
 while the guest OS reports 4 logical CPUs.
-
-## Next Step
-
-Proceed with NEO system configuration and security hardening.

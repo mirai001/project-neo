@@ -1,0 +1,42 @@
+# Experiment 003 — Initial System Audit
+
+## Objective
+
+Establish the initial state of the NEO compute node before making
+system-level configuration changes.
+
+The purpose of this audit is to understand the system rather than
+immediately modify or harden it.
+
+---
+
+## Environment
+
+| Component | Result |
+|---|---|
+| Cloud Provider | Oracle Cloud |
+| Region | Indonesia North (Batam) |
+| Operating System | Ubuntu 24.04.4 LTS |
+| Architecture | x86_64 |
+| Kernel | Linux 6.17.0-1019-oracle |
+| Logical CPUs | 4 |
+| Memory | ~15 GiB |
+| Swap | 0 B |
+| Root Filesystem | ~193 GB |
+| Network Interface | `enp0s5` |
+| Private IP | `<PRIVATE_IP>` |
+| MTU | 9000 |
+
+---
+
+## System State
+
+### Uptime
+
+The instance had been running for approximately 5 days and
+20 hours at the time of inspection.
+
+The system load was:
+
+```text
+0.00, 0.00, 0.00

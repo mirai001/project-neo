@@ -17,7 +17,7 @@ system-level configuration changes.
 - Swap: 0 B
 - Root filesystem: ~193 GB
 - Network interface: `enp0s5`
-- Private IP: `10.0.0.214/24`
+- Private IP: `PRIVATE_IP`
 - MTU: 9000
 
 ## System State

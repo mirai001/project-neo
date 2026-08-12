@@ -44,11 +44,13 @@ sudo sshd -T | grep -E \
 '^(port|permitrootlogin|passwordauthentication|pubkeyauthentication|kbdinteractiveauthentication)'
 ---
 ## observed configuration:
-- port 22
-- permitrootlogin without-password
-- pubkeyauthentication yes
-- passwordauthentication no
-- kbdinteractiveauthentication no
+---
+- | port | 22 |
+- | permitrootlogin |  without-password |
+- | pubkeyauthentication | yes |
+- | passwordauthentication |  no |
+- | kbdinteractiveauthentication | no |
+---
 
 SSH public-key authentication is enabled while password
 authentication and keyboard-interactive authentication are disabled.

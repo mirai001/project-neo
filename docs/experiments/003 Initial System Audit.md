@@ -59,13 +59,12 @@ public
 dhcpv6-client
 ssh
 
-open application ports:
-25565/tcp
-25565/udp
-24454/tcp
-24454/udp
-
-no rich rules
+# open application ports:
+- 25565/tcp
+- 25565/udp
+- 24454/tcp
+- 24454/udp
+- no rich rules
 
 These ports are intentionally exposed for Minecraft-related
 services used by the NEO node.
@@ -82,18 +81,18 @@ Active System Services
 including:
 
 OpenSSH
-firewalld
-rpcbind
-systemd-networkd
-systemd-resolved
-systemd-timesyncd
-systemd-journald
-cron
-unattended-upgrades
-Oracle Cloud Agent
-Oracle Unified Monitoring Agent
-snapd
-udisks2
+- firewalld
+- rpcbind
+- systemd-networkd
+- systemd-resolved
+- systemd-timesyncd
+- systemd-journald
+- cron
+- unattended-upgrades
+- Oracle Cloud Agent
+- Oracle Unified Monitoring Agent
+- snapd
+- udisks2
 
 These services were not removed during the initial audit.
 

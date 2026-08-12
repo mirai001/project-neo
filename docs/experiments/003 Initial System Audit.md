@@ -47,6 +47,7 @@ sudo sshd -T | grep -E \
 ---
 ## observed configuration:
 
+| Component | Result |
 |---|---|
 | port | 22 |
 | permitrootlogin |  without-password |

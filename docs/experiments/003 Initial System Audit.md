@@ -43,6 +43,8 @@ The instance had been running for approximately 5 days and
 sudo sshd -T | grep -E \
 '^(port|permitrootlogin|passwordauthentication|pubkeyauthentication|kbdinteractiveauthentication)'
 ---
+
+---
 ## observed configuration:
 |---|---|
 - | port | 22 |

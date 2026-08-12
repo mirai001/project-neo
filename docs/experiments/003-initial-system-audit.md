@@ -39,10 +39,8 @@ The instance had been running for approximately 5 days and
 # The system load was:
 
 ## SSH configuration:
----
-sudo sshd -T | grep -E \
-'^(port|permitrootlogin|passwordauthentication|pubkeyauthentication|kbdinteractiveauthentication)'
----
+`sudo sshd -T | grep -E \ '^(port|permitrootlogin|passwordauthentication|pubkeyauthentication|kbdinteractiveauthentication)'`
+
 
 ---
 ## observed configuration:

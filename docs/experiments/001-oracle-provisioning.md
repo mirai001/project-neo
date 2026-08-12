@@ -26,7 +26,3 @@ The Always Free eligible VM was unavailable due to
 
 The project temporarily uses an Oracle Cloud trial VM
 to begin development.
-
-## Next Step
-
-Perform baseline inspection of the provisioned VM.

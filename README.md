@@ -10,4 +10,4 @@ Personal laboratory for experimenting computing, infrastructure, and systems
 ## Roadmap
 ## Documentation
 ## Current status
-NEO v0.1
+`NEO v0.1`

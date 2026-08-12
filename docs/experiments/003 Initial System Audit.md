@@ -38,8 +38,8 @@ The instance had been running for approximately 5 days and
 
 # The system load was:
 SSH configuration:
-  sudo sshd -T | grep -E \
-  '^(port|permitrootlogin|passwordauthentication|pubkeyauthentication|kbdinteractiveauthentication)'
+ | sudo sshd -T | grep -E \ |
+  |'^(port|permitrootlogin|passwordauthentication|pubkeyauthentication|kbdinteractiveauthentication)'|
 
 observed configuration:
   port 22
@@ -74,8 +74,6 @@ because the Minecraft service had not yet been started.
 
 Therefore, the firewall configuration is intentional and should
 not be considered an unused firewall rule.
-
-Active System Services
 
 # Several system and cloud-provider services were observed running,
 including:

@@ -85,17 +85,17 @@ not be considered an unused firewall rule.
 including:
 
 OpenSSH
-- firewalld
-- rpcbind
-- systemd-networkd
-- systemd-resolved
-- systemd-timesyncd
-- systemd-journald
-- cron
-- unattended-upgrades
-- Oracle Cloud Agent
-- Oracle Unified Monitoring Agent
-- snapd
-- udisks2
+- `firewalld`
+- `rpcbind`
+- `systemd-networkd`
+- `systemd-resolved`
+- `systemd-timesyncd`
+- `systemd-journald`
+- `cron`
+- `unattended-upgrades`
+- `Oracle Cloud Agent`
+- `Oracle Unified Monitoring Agent`
+- `snapd`
+- `udisks2`
 
 These services were not removed during the initial audit.

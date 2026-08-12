@@ -9,5 +9,11 @@ Personal laboratory for experimenting computing, infrastructure, and systems
   
 ## Roadmap
 ## Documentation
+### NEO v0.0
+- Creating repository
+- Initialized readme
+### NEO v0.1
+
+
 ## Current status
-NEO v0.0
+NEO v0.1

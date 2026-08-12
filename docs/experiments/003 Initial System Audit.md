@@ -46,12 +46,13 @@ sudo sshd -T | grep -E \
 
 ---
 ## observed configuration:
+
 |---|---|
-- | port | 22 |
-- | permitrootlogin |  without-password |
-- | pubkeyauthentication | yes |
-- | passwordauthentication |  no |
-- | kbdinteractiveauthentication | no |
+| port | 22 |
+| permitrootlogin |  without-password |
+| pubkeyauthentication | yes |
+| passwordauthentication |  no |
+| kbdinteractiveauthentication | no |
 ---
 
 SSH public-key authentication is enabled while password

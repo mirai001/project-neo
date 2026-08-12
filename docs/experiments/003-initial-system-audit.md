@@ -38,7 +38,7 @@ The instance had been running for approximately 5 days and
 
 # The system load was:
 
-## SSH configuration:
+## 1. SSH configuration:
 `sudo sshd -T | grep -E \ '^(port|permitrootlogin|passwordauthentication|pubkeyauthentication|kbdinteractiveauthentication)'`
 
 
@@ -54,10 +54,11 @@ The instance had been running for approximately 5 days and
 | kbdinteractiveauthentication | no |
 ---
 
-SSH public-key authentication is enabled while password
-authentication and keyboard-interactive authentication are disabled.
+- SSH public-key authentication is `enabled` while password
+- authentication and keyboard-interactive authentication are `disabled`.
 This provides a reasonable initial authentication baseline.
-The SSH port remains at the default port 22.
+
+- The SSH port remains at the default port `22`.
 No change to the SSH configuration was made during this audit.
 
 Firewall configuration:
@@ -65,7 +66,7 @@ Firewall configuration:
 `dhcpv6-client`
 `ssh`
 
-# open application ports:
+# 2. open application ports:
 - 25565/tcp
 - 25565/udp
 - 24454/tcp
@@ -81,7 +82,7 @@ because the Minecraft service had not yet been started.
 Therefore, the firewall configuration is intentional and should
 not be considered an unused firewall rule.
 
-# Several system and cloud-provider services were observed running,
+# 3. Several system and cloud-provider services were observed running,
 including:
 
 OpenSSH

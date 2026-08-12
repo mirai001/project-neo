@@ -37,19 +37,18 @@ The instance had been running for approximately 5 days and
 20 hours at the time of inspection.
 
 # The system load was:
----
-SSH configuration:
+
+## SSH configuration:
   sudo sshd -T | grep -E \ 
   '^(port|permitrootlogin|passwordauthentication|pubkeyauthentication|kbdinteractiveauthentication)'
----
----
-observed configuration:
+
+## observed configuration:
   port 22
   permitrootlogin without-password
   pubkeyauthentication yes
   passwordauthentication no
   kbdinteractiveauthentication no
----
+
 SSH public-key authentication is enabled while password
 authentication and keyboard-interactive authentication are disabled.
 This provides a reasonable initial authentication baseline.
@@ -95,6 +94,3 @@ OpenSSH
 - udisks2
 
 These services were not removed during the initial audit.
-
-
-

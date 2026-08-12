@@ -1,4 +1,4 @@
-# Experiment 001 — Oracle Cloud Provisioning
+# 01 — Oracle Cloud Provisioning
 
 ## Objective
 

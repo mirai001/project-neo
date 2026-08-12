@@ -63,9 +63,9 @@ The SSH port remains at the default port 22.
 No change to the SSH configuration was made during this audit.
 
 Firewall configuration:
-public
-dhcpv6-client
-ssh
+`public`
+`dhcpv6-client`
+`ssh`
 
 # open application ports:
 - 25565/tcp
